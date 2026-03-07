@@ -732,6 +732,8 @@ La fonction `bytes.fromhex()` permet de transformer la suite hexadécimale en oc
 ### Script Python
 <p align="center"> <img src="images/l21.png" width="800"> </p>
 <p align="center"> <img src="images/l22.png" width="800"> </p>
+
+
 ```python id="8pgc5u"
 hex_value = "6873696620656874206c6c6120726f6620736b6e616854"
 
@@ -739,6 +741,7 @@ decoded = bytes.fromhex(hex_value).decode("ascii")
 
 print(decoded)
 ```
+
 
 ### Résultat obtenu
 
@@ -750,8 +753,6 @@ hsif eht lla rof sknahT
 
 Ce résultat confirme que la donnée contenue dans le binaire n’est pas aléatoire.
 Elle correspond bien à une chaîne textuelle, même si elle n’est pas encore immédiatement lisible sous sa forme actuelle.
-
----
 
 
 ---
@@ -773,7 +774,10 @@ secret = decoded[::-1]
 
 print(secret)
 ```
+
 <p align="center"> <img src="images/l24.png" width="800"> </p>
+
+
 ### Résultat final
 
 L’exécution de cette instruction donne :
