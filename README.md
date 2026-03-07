@@ -25,7 +25,7 @@ Success
 * l’application doit pouvoir être ouverte sans erreur immédiate
 
 * Ensuite, on lance l’application sur l’émulateur:
- <p align="center"> <img src="images/al2.png" width="800"> </p>
+ <p align="center"> <img src="images/l2.png" width="800"> </p>
 
 
 ---
