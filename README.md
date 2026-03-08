@@ -448,7 +448,7 @@ Exemple observé :
 ```id="az3ruo"
 Thanks for all the fish
 ```
-
+<p align="center"> <img src="images/a1.png" width="800"> </p>
 Lorsque cette chaîne apparaît **en clair**, cela signifie que **le secret attendu est déjà visible** dans le binaire.
 
 Dans ce cas, il n’est pas nécessaire de poursuivre l’analyse pour comprendre la logique de validation.
