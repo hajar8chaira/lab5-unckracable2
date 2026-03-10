@@ -25,7 +25,7 @@ Success
 * l’application doit pouvoir être ouverte sans erreur immédiate
 
 * Ensuite, on lance l’application sur l’émulateur:
- <p align="center"> <img src="images/l2.png" width="500"> </p>
+ <p align="center"> <img src="images/l2.png" width="300"> </p>
 
 
 ---
@@ -44,8 +44,8 @@ test
 hello
 android
 ```
-<p align="center"> <img src="images/l3.png" width="500"> </p>
-<p align="center"> <img src="images/l4.png" width="500"> </p>
+<p align="center"> <img src="images/l3.png" width="300"> </p>
+<p align="center"> <img src="images/l4.png" width="300"> </p>
 
 Lorsqu’une mauvaise valeur est saisie, l’application affiche un message d’erreur ou indique que la validation a échoué.
 
@@ -67,10 +67,10 @@ L’APK est chargé dans JADX à l’aide de la commande appropriée :
 ```bash
 jadx-gui UnCrackable-Level2.apk
 ```
-<p align="center"> <img src="images/l6.png" width="500"> </p>
+<p align="center"> <img src="images/l6.png" width="300"> </p>
 Une recherche est ensuite effectuée pour retrouver la classe **MainActivity**, qui correspond généralement à l’activité principale affichée au démarrage de l’application.
 
-<p align="center"> <img src="images/l5.png" width="500"> </p>
+<p align="center"> <img src="images/l5.png" width="300"> </p>
 
 Une fois la classe localisée, son contenu peut être ouvert pour commencer l’analyse.
 
@@ -448,7 +448,6 @@ Exemple observé :
 ```id="az3ruo"
 Thanks for all the fish
 ```
-<p align="center"> <img src="images/a1.png" width="400"> </p>
 Lorsque cette chaîne apparaît **en clair**, cela signifie que **le secret attendu est déjà visible** dans le binaire.
 
 Dans ce cas, il n’est pas nécessaire de poursuivre l’analyse pour comprendre la logique de validation.
@@ -802,7 +801,8 @@ Une fois la chaîne correcte identifiée, il faut revenir à l’application pou
 Saisir la valeur suivante dans le champ de texte :
 
 `Thanks for all the fish`
-<p align="center"> <img src="images/u2.png" width="800"> </p>
+<p align="center"> <img src="images/a1.png" width="300"> </p>
+
 ### Résultat attendu
 Le write-up indique que cette chaîne est bien acceptée par l’application.
 
