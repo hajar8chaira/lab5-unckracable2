@@ -794,7 +794,23 @@ Une fois ces deux transformations annulées, la valeur correcte apparaît claire
 
 ---
 
+## Étape 13 — Vérifier le secret dans l’application
 
+Une fois la chaîne correcte identifiée, il faut revenir à l’application pour la tester directement.
+
+### Action
+Saisir la valeur suivante dans le champ de texte :
+
+`Thanks for all the fish`
+<p align="center"> <img src="images/u2.png" width="800"> </p>
+### Résultat attendu
+Le write-up indique que cette chaîne est bien acceptée par l’application.
+
+### Explication
+Cette étape de validation permet de confirmer que l’analyse statique a correctement mis en évidence le secret attendu par le programme.
+
+### Checkpoint final
+Le challenge est désormais résolu.
 
 
 
